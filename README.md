@@ -35,3 +35,8 @@ curl -X POST "http://127.0.0.1:8000/token" -d "username=testuser&password=testpa
 ```bash
 curl -X GET "http://127.0.0.1:8000/users/me/" -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
 ```
+
+## 参考
+
+- https://dev.to/rishisharma/building-jwt-auth-chaining-with-fastapi-and-python-11hn
+- https://fastapi.tiangolo.com/ja/tutorial/security/oauth2-jwt/
